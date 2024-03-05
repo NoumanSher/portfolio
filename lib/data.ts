@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import hnl from "@/public/hnl.png";
+import realEstate from "@/public/realtor.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -64,16 +65,16 @@ export const projectsData = [
   {
     title: "HNL",
     description:
-      "Hitech Networks Ltd.The system includes modules for user management, attendance management, and site management..",
+      "The HNL project is an ERP system that helps an organization manage its day-to-day operations, including human resources, inventory, and supply chain management.",
     tags: ["React", "ASP.NET Boilerplate",],
     imageUrl: hnl,
   },
   {
-    title: "rmtDev",
+    title: "real estate",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Discover your dream home effortlessly with my Real Estate App. Meticulously crafted using React and Next.js, it seamlessly combines elegant property showcases with a user-friendly interface. 🏡✨",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: realEstate,
   },
   {
     title: "Word Analytics",
