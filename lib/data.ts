@@ -65,15 +65,15 @@ export const projectsData = [
   {
     title: "HNL",
     description:
-      "The HNL project is an ERP system that helps an organization manage its day-to-day operations, including human resources, inventory, and supply chain management.",
-    tags: ["React", "ASP.NET Boilerplate",],
+      "The HNL project is an ERP system that helps an organization manage its day-to-day operations, including human resources, inventory, and supply chain management. The HNL project is an ERP system that helps an organization manage its day-to-day operations, including human resources, inventory, and supply chain management.",
+    tags: ["React", "Tailwind",'ReSend','Redux'],
     imageUrl: hnl,
   },
   {
-    title: "real estate",
+    title: "Real Estate App",
     description:
-      "Discover your dream home effortlessly with my Real Estate App. Meticulously crafted using React and Next.js, it seamlessly combines elegant property showcases with a user-friendly interface. 🏡✨",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Embark on a seamless property exploration journey with my Real Estate App. Developed with precision using React and Next.js, this application delivers an immersive experience for users seeking their dream homes. With four years of expertise, I've crafted a platform that not only showcases properties elegantly but also ensures a user-friendly interface.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "React Query","ReSend"],
     imageUrl: realEstate,
   },
   {

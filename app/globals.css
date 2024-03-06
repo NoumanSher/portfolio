@@ -13,3 +13,16 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+.scrollbarHidden {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.scrollbarHidden::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scrollbarHidden::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
