@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import hnl from "@/public/hnl.png";
 import realEstate from "@/public/realtor.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import aurum from "@/public/aurum.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -65,7 +65,7 @@ export const projectsData = [
   {
     title: "HNL",
     description:
-      "The HNL project is an ERP system that helps an organization manage its day-to-day operations, including human resources, inventory, and supply chain management. The HNL project is an ERP system that helps an organization manage its day-to-day operations, including human resources, inventory, and supply chain management.",
+      "Hitech Networks Ltd. HNL is one of the leading MS vendors in the country, working with all major telecom operators in Pakistan, maintaining around 12000 BTS and 20 Core sites. HNL project is an ERP system that helps an organization manage its day-to-day operations, including human resources, inventory, and supply chain management. The system includes modules for user management, attendance management, site management and many more.",
     tags: ["React", "Tailwind",'ReSend','Redux'],
     imageUrl: hnl,
   },
@@ -77,11 +77,11 @@ export const projectsData = [
     imageUrl: realEstate,
   },
   {
-    title: "Word Analytics",
+    title: "Aurum",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Aurum is a unique online marketplace where you can purchase authentic items belonging to world-famous personalities. From T-shirts of renowned footballers like Cristiano Ronaldo, Aurum offers a variety of products. What sets Aurum apart is the ability to verify the authenticity of every product, ensuring that what you’re buying is 100% original. Aurum guarantees both authenticity and passion in every purchase.",
+    tags: ["React", "express", "Redux", "Tailwind", "Redux"],
+    imageUrl: aurum,
   },
 ] as const;
 
@@ -92,17 +92,10 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
-  "Git",
+  "Git-Hub",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
+  "Api integration",
   "Redux",
   "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
