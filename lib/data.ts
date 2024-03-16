@@ -36,10 +36,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Hitech Networks Ltd",
+    location: "Pakistan, Lahore",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "As a Frontend Developer at Geeks Valley, I worked on an extensive ERP system project for two years. This system was designed to streamline the organization’s daily operations, including human resources, inventory, and supply chain management. It featured various modules for user management, attendance management, site management, and more.The project was built on the ABP boilerplate. My primary responsibilities were on the frontend side, where I utilized React, TypeScript, and MobX to create an interactive and user-friendly interface. Although .NET was used for the backend, my focus remained on frontend development.This experience allowed me to contribute to a leading MS vendor in the country, working with all major telecom operators in Pakistan, and maintaining around 12,000 BTS and 20 Core sites. It was an opportunity to apply and enhance my skills in a real-world, large-scale project.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },

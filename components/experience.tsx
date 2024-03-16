@@ -29,6 +29,9 @@ export default function Experience() {
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
                 padding: "1.3rem 2rem",
+                
+                scrollbarWidth: 'thin',
+                scrollbarColor: 'transparent transparent'
               }}
               contentArrowStyle={{
                 borderRight:
@@ -46,7 +49,7 @@ export default function Experience() {
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+              <p className="!mt-1 !font-normal text-gray-700 h-[13rem] dark:text-white/75 overflow-y-auto">
                 {item.description}
               </p>
             </VerticalTimelineElement>
