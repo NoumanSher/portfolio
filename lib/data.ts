@@ -39,25 +39,41 @@ export const experiencesData = [
     title: "Hitech Networks Ltd",
     location: "Pakistan, Lahore",
     description:
-      "As a Frontend Developer at Geeks Valley, I worked on an extensive ERP system project for two years. This system was designed to streamline the organization’s daily operations, including human resources, inventory, and supply chain management. It featured various modules for user management, attendance management, site management, and more.The project was built on the ABP boilerplate. My primary responsibilities were on the frontend side, where I utilized React, TypeScript, and MobX to create an interactive and user-friendly interface. Although .NET was used for the backend, my focus remained on frontend development.This experience allowed me to contribute to a leading MS vendor in the country, working with all major telecom operators in Pakistan, and maintaining around 12,000 BTS and 20 Core sites. It was an opportunity to apply and enhance my skills in a real-world, large-scale project.",
-    icon: React.createElement(LuGraduationCap),
+      "As a Frontend Developer at Averlabz, I worked on an extensive ERP system project for two years. This system was designed to streamline the organization’s daily operations, including human resources, inventory, and supply chain management. It featured various modules for user management, attendance management, site management, and more.The project was built on the ABP boilerplate. My primary responsibilities were on the frontend side, where I utilized React, TypeScript, and MobX to create an interactive and user-friendly interface. Although .NET was used for the backend, my focus remained on frontend development.This experience allowed me to contribute to a leading MS vendor in the country, working with all major telecom operators in Pakistan, and maintaining around 12,000 BTS and 20 Core sites. It was an opportunity to apply and enhance my skills in a real-world, large-scale project.",
+    icon: React.createElement(CgWorkAlt),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "AGRI-BANK",
+    location: "Pakistan, Lahore",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "As a Frontend Developer on the AGRI-BANK project, I contributed to the development of a loan-based application tailored specifically for farmers. My primary responsibility was the frontend development, where I utilized React.js with TypeScript and MobX for state management.During my tenure, I collaborated closely with the team to translate project requirements into intuitive user interfaces. I played a key role in implementing features that allowed farmers to calculate the approximate costs of seeding, fertilizer, and pesticide usage, as well as estimating crop yield based on land size and crop type.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Madam Portal",
+    location: "Pakistan, Lahore",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I worked on a project called ‘Madam Portal’, an innovative platform that allows users to rent high-end clothing for a specific duration. This service is particularly beneficial for those who need expensive attire, such as bridal or party suits, for a short period. The actual price of these clothes can be quite high, making this rental service a cost-effective solution. Madam Portal offers flexible subscription plans, including one-month and three-month options, providing users with access to a wide range of premium clothing. This project was a unique opportunity to combine technology and fashion, providing a practical solution to a common problem",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023",
+  },
+  {
+    title: "Aurum",
+    location: "Pakistan, Lahore",
+    description:
+      "As a Frontend Developer, I was instrumental in building the user interface using React and Next.js. I also utilized Tailwind CSS for styling and React Query for state management. My contributions ensured a seamless and user-friendly experience, making the process of purchasing authentic items easy and enjoyable.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - Present",
+  },
+  {
+    title: "Real Estate",
+    location: "Pakistan, Lahore",
+    description:
+      "With four years of expertise, I’ve crafted a platform that not only meets the needs of prospective homeowners but also enhances their property search experience. The application is developed with a tech stack that includes React, TypeScript, Next.js, Tailwind, React Query, and ReSend, demonstrating my proficiency in these technologies.This project has been a testament to my ability to combine technical skills with a deep understanding of user needs, resulting in a product that transforms the way users explore properties.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - Present",
   },
 ] as const;
 
@@ -80,7 +96,7 @@ export const projectsData = [
     title: "Aurum",
     description:
       "Aurum is a unique online marketplace where you can purchase authentic items belonging to world-famous personalities. From T-shirts of renowned footballers like Cristiano Ronaldo, Aurum offers a variety of products. What sets Aurum apart is the ability to verify the authenticity of every product, ensuring that what you’re buying is 100% original. Aurum guarantees both authenticity and passion in every purchase.",
-    tags: ["React", "express", "Redux", "Tailwind", "Redux"],
+    tags: ["React", "Redux", "Tailwind"],
     imageUrl: aurum,
   },
 ] as const;
