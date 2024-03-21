@@ -84,6 +84,7 @@ export const projectsData = [
       "Hitech Networks Ltd. HNL is one of the leading MS vendors in the country, working with all major telecom operators in Pakistan, maintaining around 12000 BTS and 20 Core sites. HNL project is an ERP system that helps an organization manage its day-to-day operations, including human resources, inventory, and supply chain management. The system includes modules for user management, attendance management, site management and many more.",
     tags: ["React", "Tailwind",'ReSend','Redux'],
     imageUrl: hnl,
+    url:''
   },
   {
     title: "Real Estate App",
@@ -91,6 +92,7 @@ export const projectsData = [
       "Embark on a seamless property exploration journey with my Real Estate App. Developed with precision using React and Next.js, this application delivers an immersive experience for users seeking their dream homes. With four years of expertise, I've crafted a platform that not only showcases properties elegantly but also ensures a user-friendly interface.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "React Query","ReSend"],
     imageUrl: realEstate,
+    url:"https://realtor-web-drab.vercel.app"
   },
   {
     title: "Aurum",
@@ -98,6 +100,7 @@ export const projectsData = [
       "Aurum is a unique online marketplace where you can purchase authentic items belonging to world-famous personalities. From T-shirts of renowned footballers like Cristiano Ronaldo, Aurum offers a variety of products. What sets Aurum apart is the ability to verify the authenticity of every product, ensuring that what you’re buying is 100% original. Aurum guarantees both authenticity and passion in every purchase.",
     tags: ["React", "Redux", "Tailwind"],
     imageUrl: aurum,
+    url:'https://www.aurummt.com'
   },
 ] as const;
 
