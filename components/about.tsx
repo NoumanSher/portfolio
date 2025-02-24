@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        🚀 My journey began at <a className="text-[#1a1162] dark:text-white underline" href="https://averlabz.com/" target="_blank">Averlabz</a>  in 2019. Since then, I've been deeply involved in leveraging the power of   <span className="font-medium">
+        🚀 My journey began at <a className="text-[#1a1162] dark:text-white underline" href="https://averlabz.com/" target="_blank">Averlabz</a>  in 2022. Since then, I've been deeply involved in leveraging the power of   <span className="font-medium">
           React, Next.js
         </span> to bring cutting-edge solutions to life. I take pride in my ability to turn complex ideas into clean, maintainable code, ensuring a seamless user experience.
       </p>
