@@ -5,6 +5,9 @@ import hnl from "@/public/hnl.png";
 import namKart from "@/public/namKart.webp";
 import realEstate from "@/public/realtor.png";
 import aurum from "@/public/aurum.png";
+import tangle from "@/public/t1.webp";
+import food from "@/public/f1.webp";
+import tangleL from "@/public/tangleL.webp";
 
 export const links = [
   {
@@ -46,12 +49,57 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Tangle (Fashion Store)",
+    description:
+      "An innovative e-commerce store, I oversee both design and functionality to ensure a seamless shopping experience. This project leverages a modern tech stack—Next.js, TypeScript, Tailwind CSS, React Query, And Formik—allowing for high-performance,Responsive user interfaces. Additionally, the integration of i18n facilitates multi-language support, Broadening the platform's accessibility and reach",
+    tags: ["Next js", "Tailwind", "Typescript", "React Query"],
+    imageUrl: tangle,
+    url: "https://store.tanglebuild.com/en/tanglestore",
+  },
+  {
+    title: "Tangle (Food Store)",
+    description:
+      "An innovative e-commerce store, I oversee both design and functionality to ensure a seamless shopping experience. This project leverages a modern tech stack—Next.js, TypeScript, Tailwind CSS, React Query, And Formik—allowing for high-performance,Responsive user interfaces. Additionally, the integration of i18n facilitates multi-language support, Broadening the platform's accessibility and reach",
+    tags: ["Next js", "Tailwind", "Typescript", "React Query"],
+    imageUrl: food,
+    url: "https://store.tanglebuild.com/en/foodie",
+  },
+  {
     title: "NamKart",
     description:
       "This project is engineered to deliver a high-performance, responsive online shopping environment, where every UI element and API interaction is optimized for speed and reliability, ensuring an intuitive and efficient experience for users.",
     tags: ["Next js", "Tailwind", "Typescript", "React Query"],
     imageUrl: namKart,
     url: "https://market-place-neon.vercel.app/",
+  },
+  {
+    title: "Mubaader Realtor",
+    description:
+      "Embark on a seamless property exploration journey with my Mubaader Realtor. Developed with precision using React and Next.js, this application delivers an immersive experience for users seeking their dream homes. With four years of expertise, I've crafted a platform that not only showcases properties elegantly but also ensures a user-friendly interface.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind",
+      "React Query",
+      "Ant Design",
+    ],
+    imageUrl: realEstate,
+    url: "https://www.mubaaderealtor.com/",
+  },
+  {
+    title: "Tangle Landing page",
+    description:
+      "Tangle Landing Page is a website designed to guide users on how to customize their Tangle Store. It provides detailed information on available customization options and helps users choose the right package for their needs.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind",
+      "React Query",
+    ],
+    imageUrl: tangleL,
+    url: "https://admin-over-view.vercel.app/",
   },
   {
     title: "HNL",
@@ -61,21 +109,7 @@ export const projectsData = [
     imageUrl: hnl,
     url: "",
   },
-  {
-    title: "Real Estate App",
-    description:
-      "Embark on a seamless property exploration journey with my Real Estate App. Developed with precision using React and Next.js, this application delivers an immersive experience for users seeking their dream homes. With four years of expertise, I've crafted a platform that not only showcases properties elegantly but also ensures a user-friendly interface.",
-    tags: [
-      "React",
-      "TypeScript",
-      "Next.js",
-      "Tailwind",
-      "React Query",
-      "ReSend",
-    ],
-    imageUrl: realEstate,
-    url: "https://real-esatate-three.vercel.app/",
-  },
+
   {
     title: "Aurum",
     description:
