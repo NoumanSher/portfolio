@@ -8,6 +8,7 @@ import aurum from "@/public/aurum.png";
 import tangle from "@/public/t1.webp";
 import food from "@/public/f1.webp";
 import tangleL from "@/public/tangleL.webp";
+import ecommerce from "@/public/ecommerce.webp";
 
 export const links = [
   {
@@ -41,7 +42,7 @@ export const experiencesData = [
     title: "Averlabz",
     location: "Pakistan, Lahore",
     description:
-      "Experienced React.js developer with 3 years of expertise in building dynamic, responsive web applications. Proficient in Next.js, Redux, Ant Design, and Tailwind CSS for creating scalable UIs.Strong background in state management, API integration, performance optimization, and SEO best practices. Skilled in leveraging React hooks, context API, and @tanstack/react-query for efficient data fetching and handling.I am dedicated to fixing front-end issues to enhance both the functionality and overall user experience of the platforms.",
+      "Developed and maintained scalable web applications using React js, Next js, and Node js. Led frontend architecture using Tailwind CSS, Redux, and Ant Design for responsive UIs. Integrated RESTful APIs and handled complex state management with Context API and React Query. Focused on optimizing performance, SEO, and fixing critical front-end issues for better UX. Collaborated closely with cross-functional teams to deliver high-quality, maintainable code.",
     icon: React.createElement(CgWorkAlt),
     date: "2022",
   },
@@ -118,6 +119,14 @@ export const projectsData = [
     imageUrl: aurum,
     url: "",
   },
+  {
+    title: "E-commerce Backend",
+    description:
+      "Built complete backend: authentication, category/product management, wishlist, cart & checkout. Deployed app on Vercel for scalability.",
+    tags: ["Node js", "Express Js", "MongoDB", "Mongoose"], 
+    imageUrl: ecommerce,
+    url: "",
+  },
 ] as const;
 
 export const skillsData = [
@@ -132,4 +141,12 @@ export const skillsData = [
   "Api integration",
   "Redux",
   "Framer Motion",
+  "MERN stack",
+  "MongoDB",
+  "Express.js",
+  "Node.js",
+  "React Query",
+  "Formik",
+  "Ant Design",
+  "Bootstrap",
 ] as const;
